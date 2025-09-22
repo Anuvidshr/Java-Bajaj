@@ -1,0 +1,15 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Build Bajaj Project",
+			"type": "shell",
+			"command": "java",
+			"args": [
+				"-version"
+			],
+			"isBackground": false,
+			"group": "build"
+		}
+	]
+}
