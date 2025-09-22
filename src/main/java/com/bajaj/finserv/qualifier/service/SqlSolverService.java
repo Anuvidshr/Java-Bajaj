@@ -1,8 +1,8 @@
 package com.bajaj.finserv.qualifier.service;
 
-import org.springframework.stereotype.Service;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.stereotype.Service;
 
 @Service
 public class SqlSolverService {
