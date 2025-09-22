@@ -10,6 +10,18 @@
 			],
 			"isBackground": false,
 			"group": "build"
+		},
+		{
+			"label": "Run Spring Boot App",
+			"type": "shell",
+			"command": "java",
+			"args": [
+				"-cp",
+				"target/classes;%USERPROFILE%\\.m2\\repository\\org\\springframework\\boot\\spring-boot\\*;%USERPROFILE%\\.m2\\repository\\org\\springframework\\spring-core\\*",
+				"com.bajaj.finserv.qualifier.BajajFinservQualifierApplication"
+			],
+			"isBackground": true,
+			"group": "build"
 		}
 	]
 }
